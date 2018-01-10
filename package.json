@@ -1,0 +1,22 @@
+{
+  "name": "vscode-node-remote",
+  "version": "0.0.1",
+  "description": "Prove of concept that we can debug node apps through node containers.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravelo-systematic-solutions/vscode-node-remote.git"
+  },
+  "author": "Jesus Rodriguez<arturo@ravelo.ca>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravelo-systematic-solutions/vscode-node-remote/issues"
+  },
+  "homepage": "https://github.com/ravelo-systematic-solutions/vscode-node-remote#readme",
+  "dependencies": {
+    "hapi": "^17.2.0"
+  }
+}
