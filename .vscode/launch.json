@@ -7,6 +7,15 @@
         {
             "type": "node",
             "request": "attach",
+            "name": "Attach Debugger (With Docker)",
+            "address": "localhost",
+            "port": 5001,
+            "localRoot": "${workspaceFolder}",
+            "remoteRoot": "/code"
+        },
+        {
+            "type": "node",
+            "request": "attach",
             "name": "Attach Debugger (Without Docker)",
             "address": "localhost",
             "port": 5001,
