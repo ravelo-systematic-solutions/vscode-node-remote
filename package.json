@@ -4,7 +4,7 @@
   "description": "Prove of concept that we can debug node apps through node containers.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node --inspect=8001 index.js"
   },
   "repository": {
     "type": "git",
